@@ -1,0 +1,145 @@
+/*GENERAL DETAILS*/
+
+@font-face{
+    font-family: sora-regular;
+    src: url('../assets/fonts/Sora-Regular.ttf');
+}
+
+
+@font-face{
+    font-family: sora-semibold;
+    src: url('../assets/fonts/Sora-SemiBold.ttf');
+}
+
+@font-face{
+    font-family: sora-bold;
+    src: url('../assets/fonts/Sora-Bold.ttf');
+}
+
+@font-face{
+    font-family: sora-extrabold;
+    src: url('../assets/fonts/Sora-ExtraBold.ttf');
+}
+
+:root{
+    /*--COLORS--*/
+    --black: #121212;
+    --lblack: rgba(0,0,0,0.5);
+    --white: #FAFAFA;
+    --lwhite: #EEEEEE;
+    --dpale: #333333;
+    --pale: #D3D3D3;
+    --dprimary: #41077A;
+    --primary: #7E06F6;
+    --lprimary: #D6ADFF;
+    --succes: #27e85b;
+    --danger: #f21616;
+    
+    
+    /*FONTS*/
+    --normal: sora-regular;
+    --semi: sora-semibold;
+    --bold: sora-bold;
+    --extra: sora-extrabold;
+    
+    /*BORDER-RADIUS*/
+    --cbr: 1rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+*,
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--normal);
+    font-size: 16px;
+    transition: 0.5s ease all;
+    background: var(--white);
+}
+
+input,
+button,
+textarea{
+    border: 0;
+    outline: none;
+    resize: none;
+}
+
+/*GENERAL STYLES*/
+
+.fw{
+    width: 100%;
+}
+
+.fh{
+    height: 100%;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.flex{
+    display: flex;
+}
+
+.ac{
+    align-items: center;
+}
+
+.jc{
+    justify-content: center;
+}
+
+.jsb{
+    justify-content: space-between;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tc{
+    text-align: center;
+}
+
+img,
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+.btn{
+    width: fit-content;
+    padding: 10px 24px;
+    border-radius: 1.3rem;
+    font: 14px var(--semi);
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: .7;
+}
+
+.btn.is-primary{
+    background: var(--primary);
+    color: var(--white);
+}
+
+.btn.is-secondary{
+    background: var(--white);
+    color: var(--dprimary);
+}
+
