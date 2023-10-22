@@ -1,0 +1,204 @@
+<!--TECH WEBSITE BY POLYBOTICS-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--META TAGS-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Free Eccomerce Home Page Design">
+<meta name="keywords" content="Ecommerce website, Landing page, HTML CSS JS Design, Polybotics">
+<meta name="author" content="Polybotics Web Dev">
+
+<title>POLYTECH WEBSITE BY POLYBOTICS</title>
+
+<!--FAVICON-->
+<link rel="icon" href="./assets/images/nav-logo.png">
+
+<!--FONTAWESOME-->
+<link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+<link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.css">
+<link rel="stylesheet" href="./assets/fontawesome/css/regular.css">
+
+<!--STYLESHEETS-->
+<link rel="stylesheet" href="./css/general.css">
+<link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+<!--MAIN NAVIGATION-->
+<nav class="web fw flex ac jsb">
+    <div class="nav-logo-tab flex ac">
+        <div class="nav-logo round"><img src="./assets/images/nav-logo.png"></div>
+        <div class="nav-title">Poly<span>Tech</span></div>
+    </div>
+    
+    <div class="nav-links flex ac">
+        <div class="nav-link active">Home</div>
+        <div class="nav-link">Products</div>
+        <div class="nav-link">Contact</div>
+    </div>
+    
+    <div class="nav-icons flex ac">
+        <div class="nav-icon"><i class="far fa-shopping-cart"></i></div>
+        <div class="nav-icon"><i class="far fa-user"></i></div>
+        <div class="nav-icon"><i class="far fa-bell"></i></div>
+        <div onclick="toggleMobileMenu()" class="nav-icon mobile"><i class="far fa-bars"></i></div>
+    </div>
+</nav>
+
+
+<!--RESPINSIVE NAVIGATION-->
+<nav class="mobile jsb">
+    <div class="mnav-top flex ac jsb">
+        <div class="mnav-logo round"><img src="./assets/images/nav-logo.png"></div>
+        <div onclick="toggleMobileMenu()" class="mnav-close"><i class="far fa-arrow-left"></i></div>
+    </div>
+    <div class="mnav-links flex ac">
+        <div class="mnav-link fw tc active">Home</div>
+        <div class="mnav-link">Products</div>
+        <div class="mnav-link">Contact</div>
+    </div>
+    <div class="mnav-tag fw tc">Product of <span>POLYBOTICS</span></div>
+</nav>
+
+
+
+<!--MAIN COMPONENTS-->
+<main class="fw">
+    <!--HOME-->
+    <div class="home-tab fw flex ac">
+        <div class="home-left">
+            <div class="home-tag">We offer the best</div>
+            <div class="home-title"><span>Electronic</span><br>Devices & Gadgets</div>
+            <div class="btn is-primary">Purchase Gadget</div>
+        </div>
+        <div class="home-img"><img class="home-img-tag" src=""></div>
+    </div>
+    
+    <!--PRODUCT CATEGORY TO BE FILLED FROM JS-->
+    <div class="category-tab fw"></div>
+    
+    <!--FACTS-->
+    <div class="facts fw flex ac jc">
+    
+        <div class="fact-tab flex ac">
+            <div class="fact-icon center"><i class="far fa-truck"></i></div>
+            <div class="fact-des flex">
+                <div class="fact-title">Fast Delivery</div>
+                <div class="fact-tag">Get your order on-time</div>
+            </div>
+        </div>
+        <div class="fact-tab flex ac">
+            <div class="fact-icon center"><i class="far fa-shield-check"></i></div>
+            <div class="fact-des flex">
+                <div class="fact-title">Trustworthy Service</div>
+                <div class="fact-tag">Enjoy a professional service</div>
+            </div>
+        </div>
+        <div class="fact-tab flex ac">
+            <div class="fact-icon center"><i class="far fa-headphones"></i></div>
+            <div class="fact-des flex">
+                <div class="fact-title">Online Support</div>
+                <div class="fact-tag">24/7 customer service</div>
+            </div>
+        </div>
+        <div class="fact-tab flex ac">
+            <div class="fact-icon center"><i class="far fa-money-bill-wave"></i></div>
+            <div class="fact-des flex">
+                <div class="fact-title">Secured Payment</div>
+                <div class="fact-tag">Encrypted Money Transaction</div>
+            </div>
+        </div>
+    
+    </div>
+    
+    
+    <!--POSTER-->
+    <div class="poster-tab pri fw flex ac">
+        <div class="poster-img"><img src="./assets/images/poster1.png"></div>
+        <div class="poster-right">
+            <div class="poster-title">Summer Sales</div>
+            <div class="poster-tag">Enjoy up to 20% discount on these summer sale products while it lasts.</div>
+            <div class="btn is-secondary">Buy Now</div>
+        </div>
+    </div>
+    
+    
+    <!--SALES-->
+    <div class="section-title fw tc">Best Selling Products</div>
+    <div class="section-tag fw tc">Join the trend to get the best sales</div>
+    
+    <!--SALES CONTAINER TO BE FILLED FROM JS-->
+    <div class="sales-cont fw flex"></div>
+    
+    
+    
+    <!--POSTER 2-->
+    <div class="poster-tab sec fw flex ac">
+        <div class="poster-img"><img src="./assets/images/poster2.png"></div>
+        <div class="poster-right">
+            <div class="poster-title">Low Budget Sales</div>
+            <div class="poster-tag">Get your favorite tech gadgets for as low as $10 only on the PolyTech product list.</div>
+            <div class="btn is-primary">Buy Now</div>
+        </div>
+    </div>
+    
+    
+    <!--NEWS-->
+    <div class="section-title fw tc">Latest News Update</div>
+    <div class="section-tag fw tc">Stay up-to-date with our tech news</div>
+    
+    <!--NEWS CONTAINER TO BE FILLED WITH JS-->
+    <div class="news-cont fw flex"></div>
+    
+</main>
+
+<!--FOOTER-->
+<footer class="fw flex jsb">
+    <div class="footer-main-tab">
+        <div class="footer-main-top flex ac">
+            <div class="footer-main-logo round"><img src="./assets/images/nav-logo.png"></div>
+            <div class="footer-main-title">Poly<span>Tech</span></div>
+        </div>
+        <div class="footer-main-des">Just a bunch of write up to say a little on what polytech is all about, and what we offer her in the company.</div>
+        <!--SOCIAL ICONS-->
+        <div class="footer-social-tab flex ac">
+            <div class="footer-social-icon"><img src="./assets/svgs/facebook-svgrepo-com.svg"></div>
+            
+            <div class="footer-social-icon"><img src="./assets/svgs/instagram-svgrepo-com.svg"></div>
+            
+            <div class="footer-social-icon"><img src="./assets/svgs/whatsapp-svgrepo-com.svg"></div>
+        </div>
+    </div>
+    
+    <div class="footer-link-tab">
+        <div class="footer-link-title">Product Links</div>
+        <div class="footer-link">Mobile Phones</div>
+        <div class="footer-link">Headphones</div>
+        <div class="footer-link">Smart Watches</div>
+        
+        <div class="footer-link-title up">Company Links</div>
+        <div class="footer-link">About Us</div>
+        <div class="footer-link">Customer Care</div>
+        <div class="footer-link">Help & FAQs</div>
+    </div>
+    
+    <div class="footer-sub-tab">
+        <div class="footer-sub-title">Subscribe to our Newsletter</div>
+        <div class="footer-sub-tag">For Latest News & Updates</div>
+        <div class="footer-sub-inp flex ac">
+            <input type="text" placeholder="example@mail.com">
+            <div class="btn is-primary">Subscribe</div>
+        </div>
+    </div>
+    
+</footer>
+<div class="footer-right-tab fw tc">Made by <span>Polybotics</span> 2023. All Rights Reserved.</div>
+
+
+<!--SCRIPTS-->
+<script src="./index.js"></script>
+</body>
+</html>
